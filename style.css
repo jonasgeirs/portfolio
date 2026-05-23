@@ -4,7 +4,21 @@
 }
 
 .portrait {
-  max-width: 100%;
+  width: 250px;
   height: auto;
-  border-radius: 5%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .portrait {
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portrait {
+    width: 100px;
+    height: auto;
+  }
 }
